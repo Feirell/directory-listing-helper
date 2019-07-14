@@ -1,0 +1,9 @@
+{
+  "name": "directory-listing-helper",
+  "version": "0.0.1",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "minimist": "^1.2.0"
+  },
+  "bin": "./directory-listing-helper.js"
+}
