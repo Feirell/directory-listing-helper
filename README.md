@@ -25,7 +25,7 @@ If this is the case you can go adhead and install this package:
 yarn global add https://github.com/Feirell/directory-listing-helper.git
 // or
 npm install --global https://github.com/Feirell/directory-listing-helper.git
-// be awere that you need to restart the terminal to be able to use the command if you use npm
+// be aware that you need to restart the terminal to be able to use the command if you use npm
 ```
 
 If you want to remove it you just need to use the name:
