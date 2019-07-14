@@ -1,7 +1,7 @@
 # directory-listing-helper
 
-This repository is meant to be used as a global helper function to get a quick overview of you local projects.
-It will print out a directory listing including the last edit time, and if this directory includes a `.git` directory, a `package.json` file and a `node_modules` directory.
+This repository is meant to be used as a global helper function to get a quick overview of your local projects.
+It will print out a directory listing including the last edit time and wether this directory includes a `.git` directory, a `package.json` file and a `node_modules` directory.
 
 Sample output:
 
@@ -17,15 +17,15 @@ C:\Users\MyUser\projects
 
 ## usage
 
-This helper is only useful if you organise your local projects in one (or some) root directory(s). Each project should have its own directory in it and each of thoose should carry its `.git` `node_modules` directorys as their direct descendent.
+This helper is only useful if you organise your local projects in one (or some) root directory(s). Each project should have its own directory in it and each of thoose should carry its `.git` and `node_modules` directorys as their direct descendent.
 
-If this is the case you can go adhead and install this package:
+If this is the case you can go ahead and install this package:
 
 ```shell
 yarn global add https://github.com/Feirell/directory-listing-helper.git
 // or
 npm install --global https://github.com/Feirell/directory-listing-helper.git
-// be aware that you need to restart the terminal to be able to use the command if you use npm
+// be aware that you need to restart the terminal to be able to use this command if you use npm
 ```
 
 If you want to remove it you just need to use the name:
